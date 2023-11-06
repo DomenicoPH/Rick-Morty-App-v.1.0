@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin: 25px;
+}
+
+.nombre{
+    font-family: "rmfont";
+    font-size: 3rem;
+    color: greenyellow;
+    text-align: center;
+    margin: 45px;
+}
+
+.imagen{
+    height: 210px;
+    width: 210px;
+}
+
+.bio{
+    margin: 50px 250px;
+    text-align: justify;
+    font-size: 1.5rem;
+    color: greenyellow;
+    font-family: "rmfont";
+    line-height: 3.5rem;
+}
+
+.instagramContainer{
+    display: flex;
+    align-items: center;
+    transition: text-shadow 0.3s;
+    cursor: pointer;
+}
+.instagramContainer:hover{
+    text-shadow: 0px 0px 25px rgba(207, 255, 135, 0.8);
+}
+.ig{
+    height: 35px;
+    margin-right: 10px;
+}
+.socialMedia{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: "rmfont";
+    color: greenyellow;
+    letter-spacing: 1rem;
+}
+
+
+
+@media screen and (max-width: 900px){
+    .bio{
+        font-size: 1.25rem;
+        margin: 25px 50px;
+    }
+}

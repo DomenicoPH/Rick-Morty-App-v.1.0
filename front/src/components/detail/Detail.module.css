@@ -1,0 +1,70 @@
+.container{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(19, 20, 21, 0.95);
+    display: flex;
+    flex-direction: column;
+}
+.nombre{
+    font-family: "rmfont";
+    font-size: 7rem;
+    color: greenyellow;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    /*border: 1px solid rgba(255, 255, 255, 0.1);*/
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+.info p:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 0px 20px rgb(172, 255, 47);
+}
+
+.inGreen{
+    font-family: "rmfont";
+    color: greenyellow;
+}
+
+.image{
+    margin: 50px;
+}
+
+.goback{
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "rmfont";
+    font-size: 2rem;
+    color: greenyellow;
+    border: none;
+    margin: 10px;
+    transition: 0.3s;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.goback:hover{
+    text-shadow: 0px 0px 25px rgba(207, 255, 135, 0.8);
+    cursor: pointer;
+}
+.center{
+    margin: auto;
+}

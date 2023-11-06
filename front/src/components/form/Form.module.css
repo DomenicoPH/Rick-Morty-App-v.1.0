@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "rmfont";
+    font-size: 2rem;
+    color: greenyellow;
+    margin-top: 20vh;
+}
+.container img{
+    height: 600px;
+    margin-right: 10px;
+}
+
+.container form{
+    border: 1px solid greenyellow;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgba(24, 24, 25, 0.6);
+    margin-left: 10px;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container input{
+    height: 2rem;
+    font-size: 1.2rem;
+    padding: 0px;
+    padding-left: 10px;
+    margin-left: 25px;
+    background-color: greenyellow;
+    color: rgb(20, 58, 184);
+    border-radius: 5px;
+}
+.container input::target-text{
+    background-color: rgb(196, 255, 108);
+}
+.container input::placeholder{
+    color: rgba(20, 58, 184, 0.2);
+}
+
+
+.botonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container button{
+    background-color: greenyellow;
+    padding: 5px 20px;
+    font-family: "mm";
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(20, 58, 184);
+    border-radius: 5px;
+}
+
+.container button:active {
+    
+}
+
+
+.error{
+    font-family: "mm";
+    font-size: 0.8rem;
+    font-weight: light;
+    letter-spacing: 0.1rem;
+    color: red;
+    margin: 0;
+    text-align: right;
+}

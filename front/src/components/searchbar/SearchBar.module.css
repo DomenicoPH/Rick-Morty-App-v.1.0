@@ -1,0 +1,51 @@
+/*Contenedor general*/
+.container{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Container input*/
+.container input{
+    background-color: greenyellow;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px 5px 5px 50px;
+    padding-left: 20px;
+    margin: 2px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(20, 58, 184);
+}
+
+.container input::placeholder {
+    color: rgba(20, 58, 184, 0.2);
+}
+
+.container button{
+    background-color: greenyellow;
+    height:50px;
+    border: none;
+    border-radius: 5px 50px 50px 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin: 2px;
+    color: rgb(20, 58, 184);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.container button:hover{
+    background-color: rgb(195, 255, 106);
+}
+
+@media screen and (max-width: 1300px) {
+    .searchBox{
+        display: flex;
+        align-items: center;
+    }
+  }
