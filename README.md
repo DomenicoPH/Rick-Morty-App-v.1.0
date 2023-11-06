@@ -1,23 +1,34 @@
-# Proyecto Integrador
+# **Rick & Morty SPA**  
+Esta Single Page Application (SPA) te permitirá explorar el universo de Rick & Morty y sus personajes  
+<img src="./front/src/assets/rmA.png" alt="screenshot de la SPA" style="max-width: 700px" />  
 
-En este repositorio deberás desarrollar tu Proyecto Integrador. Durante el Módulo 2 trabajarás principalmente en la carpeta "front", luego en el Módulo 3 empezarás a utilizar la carpeta "back" (puedes dejarla así como está por el momento).
+## Características Destacadas:
 
-En la carpeta "front" te encontrarás con un Proyecto inicializado con el Framework Vite. NO TE PREOCUPES, no debes cambiar ninguna configuración. Simplemente sigue las instrucciones de tu Instructor/a que te irá guiando y de las consignas de la Homework.
+Conexión a la API de Rick & Morty: Esta SPA tiene acceso a la API de Rick & Morty, lo que te permite explorar una base de datos con más de 800 personajes de la serie.
 
-Recuerda que para realizar las peticiones a la API externa de Rick & Morty, utilizaremos la siguiente URL como ejemplo:
+Búsqueda Rápida: La barra de búsqueda te permite encontrar a tus personajes favoritos de manera rápida y sencilla. Solo necesitas ingresar su ID y voilà, podrás acceder a toda la información que necesitas.
 
-https://rym2-production.up.railway.app/api/character/10?key={tu-api-key}
+Selección de Personajes Favoritos: ¿Tienes personajes favoritos que no quieres perder de vista? Estás de suerte, porque puedes seleccionar y guardar tus personajes favoritos en una sección especial.
 
-Donde tu API KEY está compuesta de la siguiente manera: `henrym-{tu-usuario-de-github}`
+## Tecnologías Utilizadas:
 
-Recuerda que tu usuario de Github debe ir en minúsculas, por ejemplo: `henrym-misuaurio`
+He aprovechado una variedad de tecnologías para hacer posible este proyecto. Entre las principales, se encuentran:
 
-Aspectos a tener en cuenta:
+HTML, CSS y JS: La base de cualquier aplicación web, estas tecnologías se han utilizado para la estructura, el diseño y la funcionalidad de la SPA.
 
-- Recuerda ir PUSHEANDO los avances de tu proyecto diariamente. No importa si avanzaste mucho, poco, o todavía tienes consignas por completar. Es importante que vayas actualizando el repositorio con tu trabajo.
+React y Redux: Utilizamos React y Redux para crear una interfaz de usuario dinámica y altamente interactiva.
 
-- Es VITAL que utilices tu API KEY personal, y no la compartas con tus compañeros/as. 
+Node.js y Express: En el lado del servidor, Node.js y Express se encargan de gestionar las solicitudes y respuestas, garantizando una experiencia fluida.
 
-- Si alguna petición a la API te responde con un error, checkea bien que hayas escrito correctamente el endpoint y tu API KEY.
+PostgreSQL: La base de datos PostgreSQL almacena los datos de tus personajes favoritos y las configuraciones de usuario.  
 
-Muchos éxitos en este Proyecto! 
+## Personajes:
+<img src="./front/src/assets/rmB.png" alt="screenshot de la SPA" style="max-width: 700px" />  
+<br />
+
+## Favoritos:
+<img src="./front/src/assets/rmC.png" alt="screenshot de la SPA" style="max-width: 700px" />  
+
+---
+
+Este proyecto es un testimonio de lo emocionante y poderoso que puede ser el desarrollo web cuando se combina con una de las series más queridas y extravagantes de la televisión. ¡Esperamos que disfrutes explorando el multiverso de Rick & Morty tanto como nosotros disfrutamos creándolo!  
